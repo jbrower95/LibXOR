@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "NSString+XOR.h"
 @interface ViewController : UIViewController
 
 @end

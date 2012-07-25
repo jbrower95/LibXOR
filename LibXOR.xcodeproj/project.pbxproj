@@ -21,6 +21,7 @@
 		D0DE7E6115BFA89E00CE3AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E3F15BFA89E00CE3AFE /* Foundation.framework */; };
 		D0DE7E6915BFA89E00CE3AFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0DE7E6715BFA89E00CE3AFE /* InfoPlist.strings */; };
 		D0DE7E6C15BFA89E00CE3AFE /* LibXORTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DE7E6B15BFA89E00CE3AFE /* LibXORTests.m */; };
+		D0DE7E7715BFA8BD00CE3AFE /* NSString+XOR.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DE7E7615BFA8BD00CE3AFE /* NSString+XOR.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D0DE7E6815BFA89E00CE3AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0DE7E6A15BFA89E00CE3AFE /* LibXORTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibXORTests.h; sourceTree = "<group>"; };
 		D0DE7E6B15BFA89E00CE3AFE /* LibXORTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibXORTests.m; sourceTree = "<group>"; };
+		D0DE7E7515BFA8BD00CE3AFE /* NSString+XOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XOR.h"; sourceTree = "<group>"; };
+		D0DE7E7615BFA8BD00CE3AFE /* NSString+XOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XOR.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				D0DE7E5215BFA89E00CE3AFE /* ViewController_iPhone.xib */,
 				D0DE7E5515BFA89E00CE3AFE /* ViewController_iPad.xib */,
 				D0DE7E4415BFA89E00CE3AFE /* Supporting Files */,
+				D0DE7E7515BFA8BD00CE3AFE /* NSString+XOR.h */,
+				D0DE7E7615BFA8BD00CE3AFE /* NSString+XOR.m */,
 			);
 			path = LibXOR;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				D0DE7E4A15BFA89E00CE3AFE /* main.m in Sources */,
 				D0DE7E4E15BFA89E00CE3AFE /* AppDelegate.m in Sources */,
 				D0DE7E5115BFA89E00CE3AFE /* ViewController.m in Sources */,
+				D0DE7E7715BFA8BD00CE3AFE /* NSString+XOR.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

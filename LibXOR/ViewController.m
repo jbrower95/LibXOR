@@ -16,6 +16,19 @@
 
 - (void)viewDidLoad
 {
+    NSString *input = @"Original text";
+    
+    NSString *xor = [input stringByEncodingWithCipher:@"Cipher Please"];
+    
+    NSLog(@"XOR: %@",xor);
+    
+    
+    NSString *undo = [xor stringByEncodingWithCipher:@"Cipher Please"];
+    
+    NSLog(@"Undo: %@",undo);
+    
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
