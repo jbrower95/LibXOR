@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0DE7E3E15BFA89E00CE3AFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E3D15BFA89E00CE3AFE /* UIKit.framework */; };
+		D0DE7E4015BFA89E00CE3AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E3F15BFA89E00CE3AFE /* Foundation.framework */; };
+		D0DE7E4215BFA89E00CE3AFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E4115BFA89E00CE3AFE /* CoreGraphics.framework */; };
+		D0DE7E4815BFA89E00CE3AFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0DE7E4615BFA89E00CE3AFE /* InfoPlist.strings */; };
+		D0DE7E4A15BFA89E00CE3AFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DE7E4915BFA89E00CE3AFE /* main.m */; };
+		D0DE7E4E15BFA89E00CE3AFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DE7E4D15BFA89E00CE3AFE /* AppDelegate.m */; };
+		D0DE7E5115BFA89E00CE3AFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DE7E5015BFA89E00CE3AFE /* ViewController.m */; };
+		D0DE7E5415BFA89E00CE3AFE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DE7E5215BFA89E00CE3AFE /* ViewController_iPhone.xib */; };
+		D0DE7E5715BFA89E00CE3AFE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0DE7E5515BFA89E00CE3AFE /* ViewController_iPad.xib */; };
+		D0DE7E5F15BFA89E00CE3AFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E5E15BFA89E00CE3AFE /* SenTestingKit.framework */; };
+		D0DE7E6015BFA89E00CE3AFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E3D15BFA89E00CE3AFE /* UIKit.framework */; };
+		D0DE7E6115BFA89E00CE3AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE7E3F15BFA89E00CE3AFE /* Foundation.framework */; };
+		D0DE7E6915BFA89E00CE3AFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0DE7E6715BFA89E00CE3AFE /* InfoPlist.strings */; };
+		D0DE7E6C15BFA89E00CE3AFE /* LibXORTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DE7E6B15BFA89E00CE3AFE /* LibXORTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0DE7E6215BFA89E00CE3AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DE7E3015BFA89E00CE3AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DE7E3815BFA89E00CE3AFE;
+			remoteInfo = LibXOR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0DE7E3915BFA89E00CE3AFE /* LibXOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibXOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DE7E3D15BFA89E00CE3AFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0DE7E3F15BFA89E00CE3AFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0DE7E4115BFA89E00CE3AFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0DE7E4515BFA89E00CE3AFE /* LibXOR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibXOR-Info.plist"; sourceTree = "<group>"; };
+		D0DE7E4715BFA89E00CE3AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0DE7E4915BFA89E00CE3AFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0DE7E4B15BFA89E00CE3AFE /* LibXOR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibXOR-Prefix.pch"; sourceTree = "<group>"; };
+		D0DE7E4C15BFA89E00CE3AFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0DE7E4D15BFA89E00CE3AFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0DE7E4F15BFA89E00CE3AFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0DE7E5015BFA89E00CE3AFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0DE7E5315BFA89E00CE3AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D0DE7E5615BFA89E00CE3AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		D0DE7E5D15BFA89E00CE3AFE /* LibXORTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibXORTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DE7E5E15BFA89E00CE3AFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0DE7E6615BFA89E00CE3AFE /* LibXORTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibXORTests-Info.plist"; sourceTree = "<group>"; };
+		D0DE7E6815BFA89E00CE3AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0DE7E6A15BFA89E00CE3AFE /* LibXORTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibXORTests.h; sourceTree = "<group>"; };
+		D0DE7E6B15BFA89E00CE3AFE /* LibXORTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibXORTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DE7E3615BFA89E00CE3AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE7E3E15BFA89E00CE3AFE /* UIKit.framework in Frameworks */,
+				D0DE7E4015BFA89E00CE3AFE /* Foundation.framework in Frameworks */,
+				D0DE7E4215BFA89E00CE3AFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DE7E5915BFA89E00CE3AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE7E5F15BFA89E00CE3AFE /* SenTestingKit.framework in Frameworks */,
+				D0DE7E6015BFA89E00CE3AFE /* UIKit.framework in Frameworks */,
+				D0DE7E6115BFA89E00CE3AFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DE7E2E15BFA89E00CE3AFE = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E4315BFA89E00CE3AFE /* LibXOR */,
+				D0DE7E6415BFA89E00CE3AFE /* LibXORTests */,
+				D0DE7E3C15BFA89E00CE3AFE /* Frameworks */,
+				D0DE7E3A15BFA89E00CE3AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DE7E3A15BFA89E00CE3AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E3915BFA89E00CE3AFE /* LibXOR.app */,
+				D0DE7E5D15BFA89E00CE3AFE /* LibXORTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DE7E3C15BFA89E00CE3AFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E3D15BFA89E00CE3AFE /* UIKit.framework */,
+				D0DE7E3F15BFA89E00CE3AFE /* Foundation.framework */,
+				D0DE7E4115BFA89E00CE3AFE /* CoreGraphics.framework */,
+				D0DE7E5E15BFA89E00CE3AFE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0DE7E4315BFA89E00CE3AFE /* LibXOR */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E4C15BFA89E00CE3AFE /* AppDelegate.h */,
+				D0DE7E4D15BFA89E00CE3AFE /* AppDelegate.m */,
+				D0DE7E4F15BFA89E00CE3AFE /* ViewController.h */,
+				D0DE7E5015BFA89E00CE3AFE /* ViewController.m */,
+				D0DE7E5215BFA89E00CE3AFE /* ViewController_iPhone.xib */,
+				D0DE7E5515BFA89E00CE3AFE /* ViewController_iPad.xib */,
+				D0DE7E4415BFA89E00CE3AFE /* Supporting Files */,
+			);
+			path = LibXOR;
+			sourceTree = "<group>";
+		};
+		D0DE7E4415BFA89E00CE3AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E4515BFA89E00CE3AFE /* LibXOR-Info.plist */,
+				D0DE7E4615BFA89E00CE3AFE /* InfoPlist.strings */,
+				D0DE7E4915BFA89E00CE3AFE /* main.m */,
+				D0DE7E4B15BFA89E00CE3AFE /* LibXOR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0DE7E6415BFA89E00CE3AFE /* LibXORTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E6A15BFA89E00CE3AFE /* LibXORTests.h */,
+				D0DE7E6B15BFA89E00CE3AFE /* LibXORTests.m */,
+				D0DE7E6515BFA89E00CE3AFE /* Supporting Files */,
+			);
+			path = LibXORTests;
+			sourceTree = "<group>";
+		};
+		D0DE7E6515BFA89E00CE3AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE7E6615BFA89E00CE3AFE /* LibXORTests-Info.plist */,
+				D0DE7E6715BFA89E00CE3AFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DE7E3815BFA89E00CE3AFE /* LibXOR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DE7E6F15BFA89E00CE3AFE /* Build configuration list for PBXNativeTarget "LibXOR" */;
+			buildPhases = (
+				D0DE7E3515BFA89E00CE3AFE /* Sources */,
+				D0DE7E3615BFA89E00CE3AFE /* Frameworks */,
+				D0DE7E3715BFA89E00CE3AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibXOR;
+			productName = LibXOR;
+			productReference = D0DE7E3915BFA89E00CE3AFE /* LibXOR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0DE7E5C15BFA89E00CE3AFE /* LibXORTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DE7E7215BFA89E00CE3AFE /* Build configuration list for PBXNativeTarget "LibXORTests" */;
+			buildPhases = (
+				D0DE7E5815BFA89E00CE3AFE /* Sources */,
+				D0DE7E5915BFA89E00CE3AFE /* Frameworks */,
+				D0DE7E5A15BFA89E00CE3AFE /* Resources */,
+				D0DE7E5B15BFA89E00CE3AFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DE7E6315BFA89E00CE3AFE /* PBXTargetDependency */,
+			);
+			name = LibXORTests;
+			productName = LibXORTests;
+			productReference = D0DE7E5D15BFA89E00CE3AFE /* LibXORTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DE7E3015BFA89E00CE3AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Justin;
+			};
+			buildConfigurationList = D0DE7E3315BFA89E00CE3AFE /* Build configuration list for PBXProject "LibXOR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0DE7E2E15BFA89E00CE3AFE;
+			productRefGroup = D0DE7E3A15BFA89E00CE3AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DE7E3815BFA89E00CE3AFE /* LibXOR */,
+				D0DE7E5C15BFA89E00CE3AFE /* LibXORTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DE7E3715BFA89E00CE3AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE7E4815BFA89E00CE3AFE /* InfoPlist.strings in Resources */,
+				D0DE7E5415BFA89E00CE3AFE /* ViewController_iPhone.xib in Resources */,
+				D0DE7E5715BFA89E00CE3AFE /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DE7E5A15BFA89E00CE3AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE7E6915BFA89E00CE3AFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0DE7E5B15BFA89E00CE3AFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DE7E3515BFA89E00CE3AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE7E4A15BFA89E00CE3AFE /* main.m in Sources */,
+				D0DE7E4E15BFA89E00CE3AFE /* AppDelegate.m in Sources */,
+				D0DE7E5115BFA89E00CE3AFE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DE7E5815BFA89E00CE3AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DE7E6C15BFA89E00CE3AFE /* LibXORTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0DE7E6315BFA89E00CE3AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DE7E3815BFA89E00CE3AFE /* LibXOR */;
+			targetProxy = D0DE7E6215BFA89E00CE3AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0DE7E4615BFA89E00CE3AFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DE7E4715BFA89E00CE3AFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0DE7E5215BFA89E00CE3AFE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DE7E5315BFA89E00CE3AFE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D0DE7E5515BFA89E00CE3AFE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DE7E5615BFA89E00CE3AFE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		D0DE7E6715BFA89E00CE3AFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DE7E6815BFA89E00CE3AFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0DE7E6D15BFA89E00CE3AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DE7E6E15BFA89E00CE3AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DE7E7015BFA89E00CE3AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibXOR/LibXOR-Prefix.pch";
+				INFOPLIST_FILE = "LibXOR/LibXOR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0DE7E7115BFA89E00CE3AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibXOR/LibXOR-Prefix.pch";
+				INFOPLIST_FILE = "LibXOR/LibXOR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0DE7E7315BFA89E00CE3AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LibXOR.app/LibXOR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibXOR/LibXOR-Prefix.pch";
+				INFOPLIST_FILE = "LibXORTests/LibXORTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0DE7E7415BFA89E00CE3AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LibXOR.app/LibXOR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibXOR/LibXOR-Prefix.pch";
+				INFOPLIST_FILE = "LibXORTests/LibXORTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DE7E3315BFA89E00CE3AFE /* Build configuration list for PBXProject "LibXOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DE7E6D15BFA89E00CE3AFE /* Debug */,
+				D0DE7E6E15BFA89E00CE3AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DE7E6F15BFA89E00CE3AFE /* Build configuration list for PBXNativeTarget "LibXOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DE7E7015BFA89E00CE3AFE /* Debug */,
+				D0DE7E7115BFA89E00CE3AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0DE7E7215BFA89E00CE3AFE /* Build configuration list for PBXNativeTarget "LibXORTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DE7E7315BFA89E00CE3AFE /* Debug */,
+				D0DE7E7415BFA89E00CE3AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DE7E3015BFA89E00CE3AFE /* Project object */;
+}
