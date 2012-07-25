@@ -14,13 +14,13 @@ Download NSString+XOR.h  and  NSString+XOR.m and put them into your project
 
 On an instance of NSString:
 
-     - [string stringByEncodingWithCipher:CIPHER];
+     [string stringByEncodingWithCipher:CIPHER];
 
 *where CIPHER is an NSString.*
 
 Ciphers the string by modulating around the cipher's characters
 
-     - [string stringByDecodingFromCipher:CIPHER];
+     [string stringByDecodingFromCipher:CIPHER];
 
 *where cipher is an NSString*
   
